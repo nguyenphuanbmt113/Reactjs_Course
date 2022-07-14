@@ -12,6 +12,13 @@ module.exports = {
         "secondary-gradient": `linear-gradient(86.88deg, #20e3b2, #2cccff)`,
       },
     },
+    screens: {
+      "2xl": { max: "1535px" },
+      xl: { max: "1279px" },
+      lg: { max: "1023px" },
+      md: { max: "767px" },
+      sm: { max: "639px" },
+    },
   },
   plugins: [],
 };
